@@ -17,6 +17,61 @@
   <link rel="stylesheet" href="assets/css/slick.min.css">
   <link rel="stylesheet" href="assets/css/odometer.css">
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    * {
+    box-sizing: border-box;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.desktop-image {
+    display: block; /* Show by default */
+}
+
+.mobile-image {
+    display: none; /* Hide by default */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .desktop-image {
+        display: none; /* Hide on mobile */
+    }
+
+    .mobile-image {
+        display: block; /* Show on mobile */
+    }
+}
+
+
+section {
+  padding: 10vh;
+
+}
+
+@media (max-width: 768px)
+{
+  section {
+  padding: 10px;
+
+}
+}
+.hero-section-one {
+  position: relative;
+    background: url('your-image.jpg') no-repeat center/cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+</style>
 </head>
 
 <body>
@@ -67,7 +122,7 @@
   </header>
   <!-- End Header Section -->
   <!-- Start Hero Section -->
-  <section class="cs_hero cs_style_1 cs_center cs_shape_wrap cs_hero_shapes_1" id="home">
+  <section class="   text-center    "  id="home" style="padding-top: 9%;">
     <div class="cs_shape cs_shape_position_1"></div>
     <div class="cs_shape cs_shape_position_2"></div>
     <div class="container">
@@ -80,7 +135,7 @@
           <a href="#" class="cs_btn cs_style_1 cs_type_1"><span>Join Whitelist</span></a>
         </div>
       </div>
-      <div class="cs_hero_thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s"><img src="assets/img/char.png" style="width: 649px; height: 629px;" alt=""></div>
+      <div class="cs_hero_thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s"><img src="assets/img/Graphics/Satoshi Bro copy.png" style="width: 649px; height: 100%;" alt=""></div>
       <!-- <div class="cs_hero_circle cs_center wow zoomIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
         <img src="assets/img/hero_circle_text.svg" alt="">
         <div class="cs_hero_circle_in cs_center">
@@ -92,7 +147,7 @@
         </div>
       </div> -->
     </div>
-    <div class="cs_hero_shape"><img src="assets/img/hero_shape_1.svg" alt=""></div>
+    <div class="cs_hero_shape"><img src="" alt=""></div>
   </section>
   <!-- End Hero Section -->
   <!-- Start Feature Section -->
@@ -108,7 +163,7 @@
           <div class="cs_iconbox_inner">
             <div class="cs_iconbox_header">
               <div class="cs_iconbox_icon cs_center">
-                <img src="assets/img/icons/icon_1.png" alt="Icon">
+                <img width="70px" height="70px" src="assets/img/Graphics/Asset 1@4x.png" alt="Icon">
               </div>
               <div class="cs_iconbox_index">01</div>
             </div>
@@ -122,7 +177,7 @@
           <div class="cs_iconbox_inner">
             <div class="cs_iconbox_header">
               <div class="cs_iconbox_icon cs_center">
-                <img src="assets/img/icons/icon_2.png" alt="Icon">
+                <img width="70px" height="70px" src="assets/img/Graphics/Asset 3.png" alt="Icon">
               </div>
               <div class="cs_iconbox_index">02</div>
             </div>
@@ -137,7 +192,7 @@
           <div class="cs_iconbox_inner">
             <div class="cs_iconbox_header">
               <div class="cs_iconbox_icon cs_center">
-                <img src="assets/img/icons/icon_3.png" alt="Icon">
+                <img width="90px" height="70px" src="assets/img/Graphics/Asset 4.png" alt="Icon">
               </div>
               <div class="cs_iconbox_index">03</div>
             </div>
@@ -151,7 +206,7 @@
           <div class="cs_iconbox_inner">
             <div class="cs_iconbox_header">
               <div class="cs_iconbox_icon cs_center">
-                <img src="assets/img/icons/icon_4.png" alt="Icon">
+                <img width="120px" height="90px" src="assets/img/Graphics/Asset 1@4x (2).png" alt="Icon">
               </div>
               <div class="cs_iconbox_index">04</div>
             </div>
@@ -179,7 +234,7 @@
       <div class="row cs_gap_y_30 align-items-center">
         <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
           <div class="cs_hostory_thumbnail">
-            <img src="assets/img/5.png" style="border-radius: 15px;" alt="Image">
+            <img src="assets/img/Graphics/Steps copy.jpg" style="border-radius: 15px;" alt="Image">
           </div>
         </div>
         <div class="col-lg-6 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
@@ -228,55 +283,26 @@
     </div>
   </section>
   <!-- End About Section -->
-  
-  <section class="cs_hero cs_style_2 text-center cs_center cs_shape_wrap cs_hero_shapes_1" id="home">
+  <section class="cs_shape_wrap cs_timeline_shapes_1 position-relative" id="roadmap">
     <div class="cs_shape cs_shape_position_1"></div>
     <div class="cs_shape cs_shape_position_2"></div>
+    <div class="cs_height_100 cs_height_lg_70"></div>
     <div class="container">
-      <div class="cs_hero_in wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-        <p class="cs_hero_title_up cs_gradient_color">Tokenomics</p>
-        <h1 class="cs_hero_title">"21 Billion Reasons to Celebrate"
-        </h1>
-        <p class="cs_hero_subtitle">A nod to Bitcoin’s 21 million supply cap, Satoshi Bro features:</p>
-        <div class="cs_history_content">
-            
-            <ul style="  font-size: 20px;
-            font-weight: 600;
-            line-height: 2.5em;
-            color: var(--heading-color);
-            font-family: var(--heading-font);
-            text-align: center;
-            text-align: justify;
-            padding-left: 80px;" class=" cs_style_1 cs_mp0">
-              <li class="cs_list_item">
-                <span class="cs_list_icon"><img src="assets/img/icons/tick.svg" alt="Icon"></span>
-                <span class="cs_list_text">Ticker Symbol: XDBTC
-                </span>
-              </li>
-              <li class="cs_list_item">
-                <span class="cs_list_icon"><img src="assets/img/icons/tick.svg" alt="Icon"></span>
-                <span class="cs_list_text">Total Supply: 21 Billion tokens
-</span>
-              </li>
-              <li class="cs_list_item">
-                <span class="cs_list_icon"><img src="assets/img/icons/tick.svg" alt="Icon"></span>
-                <span class="cs_list_text">Blockchain: Solana
-                </span>
-              </li>
-            </ul>
-         
-          </div>
-          <br>
-        <div class="cs_hero_btns">
-          <a href="#" class="cs_btn cs_style_1"><span>Get connected</span></a>
-         
-        </div>
+      <div class="cs_section_heading cs_style_1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+        <h2 class="cs_section_title mb-0"> Tokenomics</h2>
       </div>
-      <div class="cs_hero_img_1 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s"><img style="width: 380px; height: 493px; border-radius: 15px; " src="assets/img/21.png" alt=""></div>
-      <div class="cs_hero_img_2 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s"><img style="width: 380px; height: 493px; border-radius: 15px; " src="assets/img/21.png" alt=""></div>
+      <div class="cs_height_50 cs_height_lg_50 " ></div>
+      
+      <img class="mobile-image" src="assets/img/Graphics/Tokenomics.png" alt="">
+
+
     </div>
-    <div class="cs_hero_shape_1"><img src="assets/img/hero_shape_2.svg" alt=""></div>
-    <div class="cs_hero_shape_2"><img src="assets/img/hero_shape_3.svg" alt=""></div>
+    <div class="cs_height_50 cs_height_lg_50 " ></div>
+      <img class="desktop-image"  src="assets/img/Graphics/Tokenomics.png" alt="">
+      
+
+
+    </div>
   </section>
 
   <!-- Start Roadmap Section -->
@@ -288,84 +314,79 @@
       <div class="cs_section_heading cs_style_1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
         <h2 class="cs_section_title mb-0"> Roadmap</h2>
       </div>
-      <div class="cs_height_50 cs_height_lg_50"></div>
-      <div class="cs_timeline_wrapper position-relative">
-        <div class="cs_shape_position_3">
-          <img src="assets/img/vector_shape_1.png" alt="Shape">
-        </div>
-        <div class="cs_shape cs_shape_position_3"></div>
-        <ul class="cs_timeline_list cs_mp0">
-          <li class="cs_timeline_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.35s">
-            <h3 class="cs_timeline_heading">Phase 1</h3>
-            <div class="cs_iconbox cs_style_2">
-              <div class="cs_iconbox_index cs_center">01</div>
-              <div class="cs_iconbox_header">
-                <h3 class="cs_iconbox_title mb-0">Foundation</h3>
-                
-              </div>
-              <hr>
-              <p class="cs_iconbox_subtitle">Launch XDBTC on Solana.
-                Establish community channels and the official website.
-                Partner with Jupiter Launchpad for token launch.
-                d</p>
-            </div>
-          </li>
-          <li class="cs_timeline_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.35s">
-            <h3 class="cs_timeline_heading">Phase 2</h3>
-            <div class="cs_iconbox cs_style_2">
-              <div class="cs_iconbox_index cs_center">02</div>
-              <div class="cs_iconbox_header">
-                <h3 class="cs_iconbox_title mb-0">Awareness
-                </h3>
-                
-              </div>
-              <hr>
-              <p class="cs_iconbox_subtitle">Run creative marketing campaigns.
-                List XDBTC on decentralized exchanges.
-                Collaborate with influencers for visibility.
-                </p>
-            </div>
-          </li>
-          <li class="cs_timeline_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.35s">
-            <h3 class="cs_timeline_heading">Phase 3</h3>
-            <div class="cs_iconbox cs_style_2">
-              <div class="cs_iconbox_index cs_center">03</div>
-              <div class="cs_iconbox_header">
-                <h3 class="cs_iconbox_title mb-0">Expansion
-                </h3>
-               
-              </div>
-              <hr>
-              <p class="cs_iconbox_subtitle">Build partnerships with crypto projects.
-                Launch Satoshi-inspired NFTs.
-                Host community events and giveaways.
-                </p>
-            </div>
-          </li>
-          <li class="cs_timeline_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.35s">
-            <h3 class="cs_timeline_heading">Phase 4</h3>
-            <div class="cs_iconbox cs_style_2">
-              <div class="cs_iconbox_index cs_center">04</div>
-              <div class="cs_iconbox_header">
-                <h3 class="cs_iconbox_title mb-0">Sustainability
-                </h3>
-             
-              </div>
-              <hr>
-              <p class="cs_iconbox_subtitle">Keep engaging the community.
-                Monitor liquidity for smooth trading.
-                Innovate to grow the Satoshi Bro ecosystem.
-                </p>
-            </div>
-          </li>
-     
-       
-        </ul>
-      </div>
+      <div class="cs_height_50 cs_height_lg_50 " ></div>
+      
+      <img class="mobile-image" src="assets/img/Graphics/Road MAp vertical.png" alt="">
+
+
+    </div>
+    <div class="cs_height_50 cs_height_lg_50 " ></div>
+      <img class="desktop-image"  src="assets/img/Graphics/Road map.png" alt="">
+      
+
+
     </div>
   </section>
   <!-- End Roadmap Section -->
 
+    <!-- Start Roadmap Section -->
+    <section class="cs_shape_wrap cs_timeline_shapes_1 position-relative" id="roadmap">
+      <div class="cs_shape cs_shape_position_1"></div>
+      <div class="cs_shape cs_shape_position_2"></div>
+      <div class="cs_height_100 cs_height_lg_70"></div>
+      <div class="container">
+        <div class="cs_section_heading cs_style_1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+          <h2 class="cs_section_title mb-0"> Final Thoghts</h2>
+        </div>
+        <div class="cs_height_50 cs_height_lg_50 " ></div>
+      
+      <img class="mobile-image" src="assets/img/Graphics/Asset 11.png" alt="">
+
+
+    </div>
+    <div class="cs_height_50 cs_height_lg_50 " ></div>
+      <img class="desktop-image"  src="assets/img/Graphics/Asset 10.png" alt="">
+      
+
+
+    </div>
+    </section>
+    
+
+
+    <section class="cs_shape_wrap cs_timeline_shapes_1 position-relative" id="roadmap">
+      <div class="cs_shape cs_shape_position_1"></div>
+      <div class="cs_shape cs_shape_position_2"></div>
+      <div class="cs_height_100 cs_height_lg_70"></div>
+      <div class="container">
+        <div class="cs_section_heading cs_style_1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+          <h2 class="cs_section_title mb-0"> Core Goal</h2>
+        </div>
+      
+    <div class="cs_height_50 cs_height_lg_50 " ></div>
+      <img class="desktop-image"  src="assets/img/Graphics/Core Goals.png" alt="">
+      
+
+
+    </div>
+    </section>
+
+
+    
+    <!-- Start Roadmap Section -->
+    <section class="cs_shape_wrap cs_timeline_shapes_1 position-relative" id="roadmap">
+      <div class="cs_shape cs_shape_position_1"></div>
+      <div class="cs_shape cs_shape_position_2"></div>
+      <div class="cs_height_100 cs_height_lg_70"></div>
+      <div class="container">
+        <div class="cs_section_heading cs_style_1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+          <h2 class="cs_section_title mb-0"> Token Allocations</h2>
+        </div>
+        <div class="cs_height_50 cs_height_lg_50"></div>
+        <img src="assets/img/Graphics/Asset 2.png" alt="">
+  
+      </div>
+    </section>
   <!-- Start FAQ Section -->
   <section class="cs_shape_wrap cs_faq_shapes_1 position-relative" id="faq">
     <div class="cs_shape cs_shape_position_1"></div>
@@ -475,7 +496,7 @@
             <div class="cs_post cs_style_1">
               <div class="cs_post_inner">
                 <a href="blog-details.html" class="cs_post_thumbnail cs_zoom">
-                  <img src="assets/img/post_1.jpeg" alt="Post Thumbnail" class="cs_zoom_in">
+                  <img src="assets/img/Graphics/Steps copy.jpg" alt="Post Thumbnail" class="cs_zoom_in">
                 </a>
                 <div class="cs_post_content">
                   <div class="cs_post_meta_wrapper">
@@ -492,7 +513,7 @@
             <div class="cs_post cs_style_1">
               <div class="cs_post_inner">
                 <a href="blog-details.html" class="cs_post_thumbnail cs_zoom">
-                  <img src="assets/img/post_2.jpeg" alt="Post Thumbnail" class="cs_zoom_in">
+                  <img src="assets/img/Graphics/Join Community.png" alt="Post Thumbnail" class="cs_zoom_in">
                 </a>
                 <div class="cs_post_content">
                   <div class="cs_post_meta_wrapper">
@@ -509,7 +530,7 @@
             <div class="cs_post cs_style_1">
               <div class="cs_post_inner">
                 <a href="blog-details.html" class="cs_post_thumbnail cs_zoom">
-                  <img src="assets/img/post_3.jpeg" alt="Post Thumbnail" class="cs_zoom_in">
+                  <img src="assets/img/Graphics/Satoshi Bro copy.png" alt="Post Thumbnail" class="cs_zoom_in">
                 </a>
                 <div class="cs_post_content">
                   <div class="cs_post_meta_wrapper">
@@ -533,7 +554,8 @@
     <div class="cs_shape cs_shape_position_1"></div>
     <div class="container">
       <div class="cs_cta cs_style_1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-        <img src="assets/img/join.png" style="width: 389px; height: 452px ; border-radius: 20px;" alt="CTA Image" class="cs_cta_img">
+        <img  src="assets/img/Graphics/Join Community.png" style="width: 389px; height: 452px ; border-radius: 20px;" alt="CTA Image" class=" desktop-image cs_cta_img">
+        <img  src="assets/img/Graphics/Join Community 1.png" style="width: 389px; height: 452px ; border-radius: 20px;" alt="CTA Image" class=" mobile-image cs_cta_img">
         <div class="cs_cta_in">
           <h2 class="cs_cta_title">Join our community for Update News</h2>
           <p class="cs_cta_subtitle">It has survived not only five centuries, but also the leap into electronic

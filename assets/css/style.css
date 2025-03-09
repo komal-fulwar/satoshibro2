@@ -20,6 +20,24 @@
 /*--------------------------------------------------------------
 ## All Variable
 ----------------------------------------------------------------*/
+
+
+
+.hero-section-one {
+  background-image: url('/copy/assets/img/Graphics/image-mesh-gradient.png'); /* Path to your image */
+  background-size: cover; /* Covers the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repetition */
+  height: 500px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color */
+  text-align: center;
+}
+
+
+
 :root {
   --web-wash: #0a0909;
   --heading-color: #fff;
@@ -31,6 +49,9 @@
   --heading-font: "Conthrax", serif;
   --body-font: "Urbanist", sans-serif;
 }
+
+
+
 
 /*--------------------------------------------------------------
 ** Goolge Fonts
