@@ -57,16 +57,18 @@
 ** Goolge Fonts
 ----------------------------------------------------------------*/
 @font-face {
-  font-family: "Conthrax";
-  src: url("../fonts/conthrax/conthrax-sb.ttf") format("truetype");
-  font-weight: 600;
+  font-family: 'Futura';
+  src: url('fonts/Futura.woff2') format('woff2'),
+       url('fonts/Futura.woff') format('woff'),
+       url('fonts/Futura.ttf') format('truetype');
+  font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Urbanist";
   src: url("../fonts/urbanist/static/Urbanist-Bold.ttf") format("truetype");
   font-weight: 700;
-  font-style: normal;
+  font-style: sans-serif;
 }
 @font-face {
   font-family: "Urbanist";
